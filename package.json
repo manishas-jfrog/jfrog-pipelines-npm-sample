@@ -1,0 +1,30 @@
+{
+  "name": "jfrog-pipelines-npm-artifactory",
+  "version": "1.0.0",
+  "description": "JFrog Pipelines CI/CD for Npm repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishas-jfrog/circleci-npm-artifactory.git"
+  },
+  "keywords": [
+    "NPM"
+  ],
+  "author": "jainish shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishas-jfrog/circleci-npm-artifactory/issues"
+  },
+  "homepage": "https://github.com/manishas-jfrog/circleci-npm-artifactory#readme",
+  "dependencies": {
+    "colors": "latest",
+    "assert": "latest"
+  },
+  "devDependencies": {},
+  "directories": {
+    "test": "test"
+  }
+}
