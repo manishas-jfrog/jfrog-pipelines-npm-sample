@@ -1,5 +1,6 @@
-var colors = require('colors');
+var http = require('http');
 
-exports.printMsg = function() {
-  console.log("This is a message from the demo package".red);
-}
+http.createServer(function(req, res) {
+  res.writeHead(200, {'Content-Type' : 'text/plain'});
+  res.end('Hello World\n');
+}).listen(1337, '127.0.0.1');
